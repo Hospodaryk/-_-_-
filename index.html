@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+
+    <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+<form id="survey-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+<label id="name-label" for="name">Full Name</label>
+        <br>
+        <label for="name">Email</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+         <label id="email-label" for="email">Email Address</label>
+        <br>
+        <label for="name">Age</label>
+        <input type="number" id="number" name="number" placeholder="number" min="6" max="25">
+        <label id="number-label" for="number">Number</label>
+        <br>
+<p>Which option best describes your current role?</p>
+        <label id="name-label" placeholder="Name"></label>
+        <label id="email-label" placeholder="Email"></label>
+        <label id="number-label" placeholder="Number"></label>
+
+    <select id="dropdown"> 
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Number</option>
+    </select>
+<br>
+<p>Would you recommend freeCodeCamp to a friend?</p>
+<input type="radio" value="option1" name="option">Yes</input>
+<input type="radio" value="option2" name="option">No</input>
+<input type="radio" value="option3" name="option">Mayby</input>
+<br>
+<p>What would you like to improved?</p>
+<input type="checkbox" value="option1">Front end</input>
+<input type="checkbox" value="option2">Back end</input>
+<input type="checkbox" value="option2">Video</input>
+<input type="checkbox" value="option2">Forum</input>
+<input type="checkbox" value="option2">Style</input>
+<br>
+<p>Add comments?</p>
+<textarea></textarea>
+<br>
+<button id="submit" type="submit">Submit</button>
+</form>
+
+
+    
+   </body>
